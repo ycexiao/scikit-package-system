@@ -1,6 +1,5 @@
 import numpy as np
 import pytest
-
 from {{cookiecutter.package_dir_name}} import calculator as calc
 
 

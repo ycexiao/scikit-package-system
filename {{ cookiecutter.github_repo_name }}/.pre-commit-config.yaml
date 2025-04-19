@@ -28,11 +28,6 @@ repos:
     rev: 7.0.0
     hooks:
       - id: flake8
-  - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
-    hooks:
-      - id: isort
-        args: ["--profile", "black"]
   - repo: https://github.com/kynan/nbstripout
     rev: 0.7.1
     hooks:
