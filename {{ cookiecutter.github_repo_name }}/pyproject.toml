@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "{{ cookiecutter.conda_pypi_package_dist_name }}"
+version = "0.0.1"
 dynamic=['dependencies']
 
 [tool.setuptools.packages.find]
