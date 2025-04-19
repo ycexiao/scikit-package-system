@@ -6,9 +6,9 @@ Notes for future contributors:
 
 The goal of Level 4 is to ensure the package is easily installable locally and to share the code with colleagues.
 
-* The goal is to work on a private GitHub repository with CI passing.
-* Users learn to use `pyproject.toml`.
-* Users learn to use GitHub CI (no news check or Codecov).
+- The goal is to work on a private GitHub repository with CI passing.
+- Users learn to use `pyproject.toml`.
+- Users learn to use GitHub CI (no news check or Codecov).
 
 Other notes from the very first PR in [this link](https://github.com/Billingegroup/scikit-package-system/pull/2):
 
