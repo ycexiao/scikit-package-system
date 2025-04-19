@@ -11,7 +11,7 @@
 Installation
 ------------
 
-Once a new projet folder, cd into the package directory ::
+Once a new project folder, cd into the package directory ::
 
         cd {{ cookiecutter.project_name }}
 
