@@ -17,7 +17,7 @@ conda create -n {{ cookiecutter.conda_pypi_package_dist_name }}_env python=<max_
 conda activate {{ cookiecutter.conda_pypi_package_dist_name }}_env
 ```
 
-### Method 1: Install with dependencies sourced from pip
+### Method 1: Install your package with dependencies sourced from pip
 
 It's simple. The only command required is the following:
 
@@ -27,7 +27,7 @@ pip install -e .
 
 > The above command will automatically install the dependencies listed in `requirements/pip.txt`.
 
-### Method 2: Install dependencies sourced from conda
+### Method 2: Install your package with dependencies sourced from conda
 
 If you haven't already, ensure you have the conda-forge channel added as the highest priority channel.
 
