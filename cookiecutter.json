@@ -1,5 +1,5 @@
 {
-  "project_name": "my-pacakge",
+  "project_name": "my-package",
   "github_org": "billingegroup",
   "github_repo_name": "{{ cookiecutter.project_name|replace(' ', '-')|lower }}",
   "conda_pypi_package_dist_name": "{{ cookiecutter.project_name|replace(' ', '-')|lower }}",
