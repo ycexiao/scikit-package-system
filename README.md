@@ -1,4 +1,4 @@
-# Scikit-Package-System
+# scikit-package-system
 
 Here is the template for Level 4 of sharing code in `scikit-package`. Please visit the latest developments and the official documentation [here](https://github.com/Billingegroup/scikit-package).
 
@@ -6,9 +6,9 @@ Notes for future contributors:
 
 The goal of Level 4 is to ensure the package is easily installable locally and to share the code with colleagues.
 
-- The goal is to work on a private GitHub repository with CI passing.
+- A goal could be setting up a private GitHub repository with CI passing.
 - Users learn to use `pyproject.toml`.
-- Users learn to use GitHub CI (no news check or Codecov).
+- Users learn to use GitHub CI (No news check, no Codecov)
 
 Other notes from the very first PR in [this link](https://github.com/Billingegroup/scikit-package-system/pull/2):
 
@@ -18,7 +18,9 @@ Other notes from the very first PR in [this link](https://github.com/Billingegro
 - We want the `README.rst` to contain quick installation instructions.
 - We would like to have `LICENSE.rst` to encourage the good habit of taking care of this legal file.
 - We do not provide documentation since users are focused on writing the actual code.
-- We do not provide complicated examples for tests and docstrings in the current `calculator.py` and `test_calculator.py` demo code.
+- We are not using `isort` or `Codespell` because we want users to enjoy using `pre-commit` without it becoming a source of problems.
+- We still include `flake8` in `pre-commit` because it facilitates a smoother migration process from Level 4 to Level 5.
+- We do not provide complicated examples for docstrings in the current `calculator.py` demo code.
 - We do not provide `AUTHORS.rst`, `CODE_OF_CONDUCT.rst`, `MANIFEST.rst`, or `CHANGELOG.rst`, which are provided in Level 5.
 
 Are there any things that we need to maintain when we have new updates?
