@@ -9,6 +9,4 @@ on:
 
 jobs:
   tests-on-pr:
-    uses: Billingegroup/release-scripts/.github/workflows/_tests-on-pr.yml@v0
-    secrets:
-      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    uses: Billingegroup/release-scripts/.github/workflows/_tests-on-pr-no-codecov-no-headless.yml@v0
