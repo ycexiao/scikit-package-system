@@ -1,7 +1,7 @@
 {
   "project_name": "my-package",
-  "github_org": "billingegroup",
-  "github_username_or_orgname": "{{ cookiecutter.project_name|replace(' ', '-')|lower }}",
+  "github_username_or_orgname": "billingegroup",
+  "github_repo_name": "{{ cookiecutter.project_name|replace(' ', '-')|lower }}",
   "conda_pypi_package_dist_name": "{{ cookiecutter.project_name|replace(' ', '-')|lower }}",
   "package_dir_name": "{{ cookiecutter.project_name|replace(' ', '_')|replace('-', '_')|lower }}",
   "project_owner_name": "Simon Billinge",
