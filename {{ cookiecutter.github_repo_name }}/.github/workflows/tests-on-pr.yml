@@ -9,4 +9,4 @@ on:
 
 jobs:
   tests-on-pr:
-    uses: Billingegroup/release-scripts/.github/workflows/_tests-on-pr-no-codecov-no-headless.yml@v0
+    uses: scikit-package/release-scripts/.github/workflows/_tests-on-pr-no-codecov-no-headless.yml@v0
