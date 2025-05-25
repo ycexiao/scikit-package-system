@@ -1,6 +1,6 @@
 # scikit-package-system
 
-Here is the template for Level 4 of sharing code in `scikit-package`. Please visit the latest developments and the official documentation [here](https://github.com/Billingegroup/scikit-package).
+Here is the template for Level 4 of sharing code in `scikit-package`. Please visit the latest developments and the official documentation [here](https://github.com/scikit-package/scikit-package).
 
 Notes for future contributors:
 
@@ -10,7 +10,7 @@ The goal of Level 4 is to ensure the package is easily installable locally and t
 - Users learn to use `pyproject.toml`.
 - Users learn to use GitHub CI (No news check, no Codecov)
 
-Other notes from the very first PR in [this link](https://github.com/Billingegroup/scikit-package-system/pull/2):
+Other notes from the very first PR in [this link](https://github.com/scikit-package/scikit-package-system/pull/2):
 
 - We assume that the latest Python version supported by `skpkg` is used in Level 4. If the user needs to specify the Python version, we encourage them to use Level 5.
 - We have decided not to support the namespace package structure in Level 4.
