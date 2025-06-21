@@ -24,7 +24,7 @@ repos:
     rev: 24.4.2
     hooks:
       - id: black
-        exclude: '{{.*}}'  # skip files/folders with Jinja expressions
+        exclude: "{{.*}}" # skip files/folders with Jinja expressions
   - repo: https://github.com/pycqa/flake8
     rev: 7.0.0
     hooks:
