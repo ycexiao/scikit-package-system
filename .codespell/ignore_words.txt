@@ -6,11 +6,3 @@ mater
 
 ;; Frobenius norm used in np.linalg.norm
 fro
-
-;; software or elements/compounds
-CAF
-Te
-Nd
-ThOs
-ThGe
-DyIn
