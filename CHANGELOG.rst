@@ -11,4 +11,3 @@ Release notes
 
 * Add workflow for GitHub release on tag push.
 * Add pre-commit CI setup.
-
